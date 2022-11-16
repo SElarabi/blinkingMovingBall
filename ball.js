@@ -1,4 +1,4 @@
-var velocity = 100;
+var velocity = 10;
 var positionX = 0;
 var positionY = 0;
 var reverse =false;
