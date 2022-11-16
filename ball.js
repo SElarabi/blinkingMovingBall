@@ -1,4 +1,4 @@
-var velocity = 1;
+var velocity = 100;
 var positionX = 0;
 var positionY = 0;
 var reverse =false;
@@ -50,4 +50,4 @@ function changeColor(){
    }
 
 // This call the moveBall function every 100ms
-setInterval(changeColor,500);
+setInterval(changeColor,1000);
