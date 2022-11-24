@@ -50,4 +50,4 @@ function changeColor(){
    }
 
 // This call the moveBall function every 100ms
-setInterval(changeColor,1000);
+setInterval(changeColor,100);
