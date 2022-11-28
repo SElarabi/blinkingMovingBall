@@ -2,7 +2,7 @@
 
 This project provides a simple code to move a ball inside a frame as it changes colors.
 
-The changes of colors and dynamics of the moving object( white, red, green and blue) makes the ball blinking.
+The change of colors and dynamics of the moving object( white, red, green and blue) makes the ball blinking.
 
 
 You might combine a pair of the two VARIABLES **var velocity = 1 & setInterval(changeColor,5) .**  values to control the display output of the ball AND to adjust to slow or speed up the movement of the ball object.
