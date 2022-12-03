@@ -5,12 +5,12 @@ var reverse =false;
 var blinking=['white',"red",'green','blue'];
 
 var ball = document.getElementById("ball");
-var a =0;
+var a = 0;
 
 //write a function that can change the position of the html element "ball"
 function moveBall() {
   
-  console.log('blinking index  '+a);
+  console.log('blinking index  '+ a);
   
   // two fixed x-axis coordinates (you will use these variable in step 3)
   var Xmin = 0;
@@ -37,12 +37,12 @@ function moveBall() {
   reverse = !reverse;
   ball.style.left = positionX + 'px';
   ball.style.top = positionY + 'px';
-  if(a>3) a=0;
+  if(a > 3) a = 0;
  
   }
 function changeColor(){
   
-    ball.style.backgroundColor = blinking[a];
+    ball.style.backgroundColor = blinking[ a ];
     
      moveBall(); 
      a++;
@@ -50,4 +50,6 @@ function changeColor(){
    }
 
 // This call the moveBall function every 100ms
-setInterval(changeColor,1);
+setInterval(changeColor, 1 );
+
+L
